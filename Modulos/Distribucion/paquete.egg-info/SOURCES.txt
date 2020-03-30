@@ -1,0 +1,11 @@
+setup.py
+paquete/__init__.py
+paquete/mensaje_de_prueba.py
+paquete.egg-info/PKG-INFO
+paquete.egg-info/SOURCES.txt
+paquete.egg-info/dependency_links.txt
+paquete.egg-info/top_level.txt
+paquete/despedida/__inint__.py
+paquete/despedida/adios.py
+paquete/saludo/__init__.py
+paquete/saludo/saludo.py

@@ -1,0 +1,11 @@
+* Para crear un paquete se necesita en la carpeta crear un archivo __init__.py
+* Con esto vamos a crear el archivo con el que queremos trabajar
+* Por ejemplo esta el "paquete" este tiene el mensaje_de_prueba.py
+* Ahora este se importa en el main.py llamando primero al paquete y al archivo
+* from paquete.mensaje_de_prueba import *
+* Listo, asi se hace un paquete
+
+* Tambien se puede crear un paquete dentro de otro paquete
+* Se hace de la misma manera, cree 2 carpetas llamadas despedida y saludo
+* Estos tienen la misma estructura __init__.py y el archivo que se usara
+* para importarlo es: from paquete.despedida.adios import *..... asi lo mismo con el otro

@@ -1,0 +1,12 @@
+* Ahora vamos a crear una distribucion basica, con esta vamos a poder crear un paquete e instalarlo para usarlo o que otra persona la use
+
+* Para hacerlo se tiene que crear un archivo llamado setup.py y añadirle los detalles que estan en el setup.py
+* Ahora en la raiz que esta el paquete y el setup creados abrimos un cmd
+* Escribes lo siguiente: python setup.py sdist
+* Ahora se creara una carpeta llamada dist
+* Se creo el paquete que queriamos
+* Ahora si queremos instalar este paquete, siendo una tercera persona o uno mismo para que funcione en nuestro computador se hace con lo siguiente
+* Navegamos donde se encuentra en la carpeta del paquete y escribimos: pip3 install nombre_del_paquete
+* Si no funciona puede ser el pip3
+
+* Listo ahora no es necesario tener el paquete instalado en la misma carpeta o direccion que se encuentra el codigo, lo podemos hacer de donde sea
